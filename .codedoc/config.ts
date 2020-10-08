@@ -34,7 +34,7 @@ export const config = /*#__PURE__*/configuration({
   ],
   misc: {
     github: {
-      repo: 'uloco.coding.blog.git',
+      repo: 'uloco.coding.blog',
       user: 'uloco'
     }
   }
