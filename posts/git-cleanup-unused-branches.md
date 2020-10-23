@@ -1,20 +1,8 @@
-> :Hero src=https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=1900&h=600&fit=crop,
-> mode=light,
+> :Hero src=https://images.unsplash.com/photo-1556075798-4825dfaaf498?w=1900&h=600&fit=crop,
 > target=desktop,
 > leak=156px
 
-> :Hero src=https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=1200&h=600&fit=crop,
-> mode=light,
-> target=mobile,
-> leak=96px
-
-> :Hero src=https://images.unsplash.com/photo-1508780709619-79562169bc64?w=1900&h=600&fit=crop,
-> mode=dark,
-> target=desktop,
-> leak=156px
-
-> :Hero src=https://images.unsplash.com/photo-1508780709619-79562169bc64?w=1200&h=600&fit=crop,
-> mode=dark,
+> :Hero src=https://images.unsplash.com/photo-1556075798-4825dfaaf498?w=1200&h=600&fit=crop,
 > target=mobile,
 > leak=96px
 
@@ -26,8 +14,6 @@
 
 <br>
 TODO: Author
-TODO: Hero Image
-TODO: Add download button for script
 TODO: Setup Home Page
 TODO: Remove sample blog post
 
@@ -56,8 +42,9 @@ rules, but locally there is no convenient way of doing that.
 
 ## The Solution
 
-Here is a simple bash script to delete all local branches, that are already **merged**
-into your _main branch_ and also **deleted** from your _remote repository_.
+Here is a simple bash script to delete all local branches, that are already
+**merged** into your _main branch_ and also **deleted** from your _remote
+repository_.
 
 ```bash
 #!/usr/bin/env bash
@@ -94,9 +81,9 @@ cp "${HOME}/Downloads/git-cleanup-branches" "${HOME}/.local/bin"
 chmod u+x "${HOME}/.local/bin/git-cleanup-branches"
 ```
 
-Now you just need to copy the script into this folder and add the following lines to
-your shell `rc` file, like `.bash_profile`, `.bashrc`, or `.zshrc`, which are
-usually located in your home directory.
+Now you just need to copy the script into this folder and add the following
+lines to your shell `rc` file, like `.bash_profile`, `.bashrc`, or `.zshrc`,
+which are usually located in your home directory.
 
 ```
 # Add local binaries to path
@@ -107,7 +94,7 @@ Now just open a new terminal and the command should work fine.
 
 Done, happy cleaning! 😊
 
-#### Sidenote
+### Sidenote
 
 Take note, that not fully merged branches won't be deleted and need to be
 deleted manually _only_ if you are sure about it.
@@ -122,8 +109,8 @@ You can do this with `git branch -D <branchname>`.
 >
 > > :InDark
 > >
-> > _Hero image by [Kaitlyn Baker](https://unsplash.com/@kaitlynbaker) from [Unsplash](https://unsplash.com)_
+> > _Hero image by [Yancy Min](https://unsplash.com/@yancymin) from [Unsplash](https://unsplash.com)_
 >
 > > :InLight
 > >
-> > _Hero image by [Glenn Carstens-Peters](https://unsplash.com/@glenncarstenspeters) from [Unsplash](https://unsplash.com)_
+> > _Hero image by [Yancy Min](https://unsplash.com/@yancymin) from [Unsplash](https://unsplash.com)_
