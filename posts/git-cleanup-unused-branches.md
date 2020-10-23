@@ -27,27 +27,32 @@
 <br>
 TODO: Author
 TODO: Hero Image
-TODO: 
-TODO: Author
 TODO: Add download button for script
+TODO: Setup Home Page
+TODO: Remove sample blog post
 
 ## The Workflow
 
 A popular approach to work with git repositories is the so called _feature
 branch strategy_. Here basically every developer on your team opens a branch
 for a feature or bugfix they are working on locally and also on a remote
-service like e.g. Github or Gitlab. After a lot of commits and pushes you
-will have a working example of your feature which gets reviewed by some
-senior developer most of the time and is ready to be merged into main branch,
-where all code lands in the end.
+service like e.g. Github or Gitlab.
+
+After a lot of commits and pushes you will have a working example of your
+feature which gets reviewed by some of your peers most of the time and is
+ready to be merged into main branch, where all code lives finally.
 
 ## The Problem
 
-As you can see this leads to a lot of branches on your laptop and also on the
-remote service, which need to be deleted once in a while. You can
-automatically delete the branches on Github / Gitlab via the browser
-interface once the branch is merged or setup some automation rules, but
-locally there is no convenient way of doing that.
+As you can see this workflow leads to a lot of branches on your laptop and
+also on the remote service, which need to be deleted once in a while. It's
+way more convenient to have some local branches you are actually working on
+and easily find them with `git branch` instead of having loads of
+branches that you are already finished working with.
+
+You can automatically delete the branches on your remote Github / Gitlab via
+the browser interface once the branch is merged or setup some automation
+rules, but locally there is no convenient way of doing that.
 
 ## The Solution
 
@@ -71,6 +76,7 @@ To make this command look like a native git command, we can make use of a
 neat little trick I found out about git commands in the shell. If you prefix
 the script file with `git-`, so in this case for example
 `git-cleanup-branches`, you can just run the script as any other git command.
+
 You even get tab completion for that!
 
 ```
