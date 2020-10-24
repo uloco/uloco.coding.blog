@@ -58,6 +58,10 @@ git remote prune origin
 git branch -vv | grep "origin/.*: gone]" | awk "{print \$1}" | xargs git branch -d
 ```
 
+> :Buttons
+>
+> > :CopyButton
+
 To make this command look like a native git command, we can make use of a
 neat little trick I found out about git commands in the shell. If you prefix
 the script file with `git-`, so in this case for example
@@ -80,6 +84,10 @@ touch "${HOME}/.local/bin/git-cleanup-branches"
 chmod u+x "${HOME}/.local/bin/git-cleanup-branches"
 ```
 
+> :Buttons
+>
+> > :CopyButton
+
 Now you just need to copy and paste the script from above into
 `"${HOME}/.local/bin/git-cleanup-branches"` and add the following lines to
 your shell `rc` file, like `.bash_profile`, `.bashrc`, or `.zshrc` (whatever
@@ -89,6 +97,10 @@ you are using), which are usually located in your home directory.
 # Add local binaries to path
 export PATH="${PATH}:${HOME}/.local/bin"
 ```
+
+> :Buttons
+>
+> > :CopyButton
 
 Now just open a new terminal and the command should work fine.
 
