@@ -76,14 +76,15 @@ and put them in `${HOME}/.local/bin`. Also you will have to make the script
 runnable with `chmod` to make it work properly.
 
 ```
-mkdir "${HOME}/.local/bin"
-cp "${HOME}/Downloads/git-cleanup-branches" "${HOME}/.local/bin"
+mkdir -p "${HOME}/.local/bin"
+touch "${HOME}/.local/bin/git-cleanup-branches"
 chmod u+x "${HOME}/.local/bin/git-cleanup-branches"
 ```
 
-Now you just need to copy the script into this folder and add the following
-lines to your shell `rc` file, like `.bash_profile`, `.bashrc`, or `.zshrc`,
-which are usually located in your home directory.
+Now you just need to copy and paste the script from above into
+`"${HOME}/.local/bin/git-cleanup-branches"` and add the following lines to
+your shell `rc` file, like `.bash_profile`, `.bashrc`, or `.zshrc` (whatever
+you are using), which are usually located in your home directory.
 
 ```
 # Add local binaries to path
