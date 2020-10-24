@@ -15,7 +15,6 @@
 <br>
 TODO: Author
 TODO: Setup Home Page
-TODO: Remove sample blog post
 
 ## The Workflow
 
