@@ -98,14 +98,14 @@
       "hash": "Ww783Fpk/T0QF/oA+qje8g=="
     },
     {
-      "name": "ArticleCard",
-      "filename": "/home/runner/work/uloco.coding.blog/uloco.coding.blog/.codedoc/node_modules/@codedoc/coding-blog-plugin/dist/es5/components/article-card/index.js",
-      "hash": "IhL6UZAkNn/G003BIquPUg=="
-    },
-    {
       "name": "Author",
       "filename": "/home/runner/work/uloco.coding.blog/uloco.coding.blog/.codedoc/node_modules/@codedoc/coding-blog-plugin/dist/es5/components/author/index.js",
       "hash": "R4YzEm+F30HSvtBlxprJqA=="
+    },
+    {
+      "name": "ArticleCard",
+      "filename": "/home/runner/work/uloco.coding.blog/uloco.coding.blog/.codedoc/node_modules/@codedoc/coding-blog-plugin/dist/es5/components/article-card/index.js",
+      "hash": "IhL6UZAkNn/G003BIquPUg=="
     },
     {
       "name": "ToCPrevNext",

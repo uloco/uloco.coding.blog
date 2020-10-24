@@ -18,16 +18,16 @@ import { gatherFootnotes } from '/home/runner/work/uloco.coding.blog/uloco.codin
 import { ToCToggle } from '/home/runner/work/uloco.coding.blog/uloco.coding.blog/.codedoc/node_modules/@codedoc/core/dist/es6/components/page/toc/toggle/index.js';
 import { DarkModeSwitch } from '/home/runner/work/uloco.coding.blog/uloco.coding.blog/.codedoc/node_modules/@codedoc/core/dist/es6/components/darkmode/index.js';
 import { ConfigTransport } from '/home/runner/work/uloco.coding.blog/uloco.coding.blog/.codedoc/node_modules/@codedoc/core/dist/es6/transport/config.js';
-import { ArticleCard } from '/home/runner/work/uloco.coding.blog/uloco.coding.blog/.codedoc/node_modules/@codedoc/coding-blog-plugin/dist/es5/components/article-card/index.js';
 import { Author } from '/home/runner/work/uloco.coding.blog/uloco.coding.blog/.codedoc/node_modules/@codedoc/coding-blog-plugin/dist/es5/components/author/index.js';
+import { ArticleCard } from '/home/runner/work/uloco.coding.blog/uloco.coding.blog/.codedoc/node_modules/@codedoc/coding-blog-plugin/dist/es5/components/article-card/index.js';
 import { ToCPrevNext } from '/home/runner/work/uloco.coding.blog/uloco.coding.blog/.codedoc/node_modules/@codedoc/core/dist/es6/components/page/toc/prevnext/index.js';
 
 const components = {
   '9QmaulaXBcDH7F6NpY63wQ==': ToCToggle,
   'tFISVdvLy/7dJdr4XZdc9Q==': DarkModeSwitch,
   'Ww783Fpk/T0QF/oA+qje8g==': ConfigTransport,
-  'IhL6UZAkNn/G003BIquPUg==': ArticleCard,
   'R4YzEm+F30HSvtBlxprJqA==': Author,
+  'IhL6UZAkNn/G003BIquPUg==': ArticleCard,
   '+oRcRudRKsiRAjzX55HP0Q==': ToCPrevNext
 };
 
