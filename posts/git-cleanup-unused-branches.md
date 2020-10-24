@@ -4,7 +4,7 @@
 
 > :Hero src=https://images.unsplash.com/photo-1556075798-4825dfaaf498?w=1200&h=600&fit=crop,
 > target=mobile,
-> leak=96px
+> leak=156px
 
 > :Title shadow=0 0 8px black, color=white
 >
