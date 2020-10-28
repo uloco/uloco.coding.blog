@@ -93,7 +93,7 @@ Now you just need to copy and paste the script from above into
 your shell `rc` file, like `.bash_profile`, `.bashrc`, or `.zshrc` (whatever
 you are using), which are usually located in your home directory.
 
-```
+```bash
 # Add local binaries to path
 export PATH="${PATH}:${HOME}/.local/bin"
 ```
