@@ -3,12 +3,20 @@ import { BlulocoDark, BlulocoLight } from "../theme/themes";
 
 export const theme = /*#__PURE__*/ createTheme({
   light: {
-    primary: "#363062",
-    border: "#75757548",
+    // background: "#f0f0ea",
+    // text: "#383a42",
+    primary: "#0099e1",
+    primaryContrast: "#f0f0ea",
+    border: "#d5d7d8",
+    code: "#7a82da",
   },
   dark: {
-    primary: "#9399ff",
-    border: "#eeeeee48",
+    // background: "#22252a",
+    // text: "#abb2bf",
+    primary: "#2f8eff",
+    primaryContrast: "#22252a",
+    border: "#3d434f",
+    code: "#7a82da",
   },
   code: {
     wmbar: false,
