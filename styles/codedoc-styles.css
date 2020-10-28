@@ -32,8 +32,8 @@ body.dark .darklight-0-0-1>.dark {
   }
 }
   .button-0-0-2 {
-    color: white;
-    border: 2px solid #363062;
+    color: #f0f0ea;
+    border: 2px solid #0099e1;
     cursor: pointer;
     height: 40px;
     margin: 8px;
@@ -42,7 +42,7 @@ body.dark .darklight-0-0-1>.dark {
     padding: 4px 16px;
     font-size: 16px;
     min-width: 96px;
-    background: #363062;
+    background: #0099e1;
     align-items: center;
     margin-right: 0;
     border-radius: 3px;
@@ -65,15 +65,15 @@ body.dark .darklight-0-0-1>.dark {
     background: rgba(66, 66, 66, 0.35);
   }
   body.dark .button-0-0-2 {
-    color: black;
-    background: #9399ff;
-    border-color: #9399ff;
+    color: #22252a;
+    background: #2f8eff;
+    border-color: #2f8eff;
   }
 @media (prefers-color-scheme: dark) {
   body:not(.dark-mode-animate) .button-0-0-2 {
-    color: black;
-    background: #9399ff;
-    border-color: #9399ff;
+    color: #22252a;
+    background: #2f8eff;
+    border-color: #2f8eff;
   }
   body:not(.dark-mode-animate) .button-0-0-2[disabled] {
     color: #212121;
@@ -82,17 +82,17 @@ body.dark .darklight-0-0-1>.dark {
   }
 }
   .button-0-0-2:hover:not([disabled]) {
-    color: #363062;
+    color: #0099e1;
     background: transparent;
     text-decoration: none;
   }
   body.dark .button-0-0-2:hover:not([disabled]) {
-    color: #9399ff;
+    color: #2f8eff;
     background: transparent;
   }
 @media (prefers-color-scheme: dark) {
   body:not(.dark-mode-animate) .button-0-0-2:hover:not([disabled]) {
-    color: #9399ff;
+    color: #2f8eff;
     background: transparent;
   }
 }
@@ -214,7 +214,7 @@ a.button-0-0-2.icon {
     border: none;
     height: 16px;
     margin: 16px;
-    background: #75757548;
+    background: #d5d7d8;
   }
   .footer-0-0-5 .main>.inside a {
     text-decoration: none;
@@ -226,11 +226,11 @@ a.button-0-0-2.icon {
     transition: background .3s;
   }
   body.dark .footer-0-0-5 .main>.inside hr {
-    background: #eeeeee48;
+    background: #3d434f;
   }
 @media (prefers-color-scheme: dark) {
   body:not(.dark-mode-animate) .footer-0-0-5 .main>.inside hr {
-    background: #eeeeee48;
+    background: #3d434f;
   }
 }
   .toc-0-0-6 {
@@ -348,7 +348,7 @@ a.button-0-0-2.icon {
     position: fixed;
     font-size: 12px;
     max-height: 45vh;
-    border-left: 1px dashed #75757548;
+    border-left: 1px dashed #d5d7d8;
     margin-left: 64px;
     padding-left: 48px;
     scroll-behavior: initial;
@@ -366,29 +366,29 @@ a.button-0-0-2.icon {
   }
 @media (prefers-color-scheme: dark) {
   body:not(.dark-mode-animate) .contentnav-0-0-9 {
-    border-color: #eeeeee48;
+    border-color: #3d434f;
   }
   body:not(.dark-mode-animate) .contentnav-0-0-9 a {
     color: #eeeeee;
   }
   body:not(.dark-mode-animate) .contentnav-0-0-9 a:hover, body:not(.dark-mode-animate) .contentnav-0-0-9 a.active {
-    color: #9399ff;
+    color: #2f8eff;
   }
 }
   body.dark .contentnav-0-0-9 {
-    border-color: #eeeeee48;
+    border-color: #3d434f;
   }
   body.dark .contentnav-0-0-9 a {
     color: #eeeeee;
   }
   body.dark .contentnav-0-0-9 a:hover, body.dark .contentnav-0-0-9 a.active {
-    color: #9399ff;
+    color: #2f8eff;
   }
   body.dark-mode-animate .contentnav-0-0-9 a {
     transition: color .3s, opacity .3s;
   }
   .contentnav-0-0-9 a:hover, .contentnav-0-0-9 a.active {
-    color: #363062;
+    color: #0099e1;
     opacity: 1;
   }
   .contentnav-0-0-9 a.h2 {
@@ -425,7 +425,7 @@ body.dark-mode-animate {
   transition: color .3s, background .3s;
 }
 a {
-  color: #363062;
+  color: #0099e1;
 }
 a:hover {
   text-decoration: underline;
@@ -436,11 +436,11 @@ body.dark-mode-animate a {
 }
 @media (prefers-color-scheme: dark) {
   body:not(.dark-mode-animate) a {
-    color: #9399ff;
+    color: #2f8eff;
   }
 }
 body.dark a {
-  color: #9399ff;
+  color: #2f8eff;
 }
 .container {
   margin: 0 auto;
@@ -461,10 +461,10 @@ table th, table td {
   text-align: left;
 }
 table th {
-  border-bottom: 1px solid #5A5A5A;
+  border-bottom: 1px solid #BFC1C2;
 }
 table td {
-  border-bottom: 1px solid #75757548;
+  border-bottom: 1px solid #d5d7d8;
 }
 table tr:nth-child(even) {
   background: #eeeeee;
@@ -485,19 +485,19 @@ body.dark-mode-animate table tr:nth-child(even) {
   transition: background .3s;
 }
 body.dark table td {
-  border-color: #eeeeee48;
+  border-color: #3d434f;
 }
 @media (prefers-color-scheme: dark) {
   body:not(.dark-mode-animate) table td {
-    border-color: #eeeeee48;
+    border-color: #3d434f;
   }
 }
 body.dark table th {
-  border-color: #EEEEEE;
+  border-color: #585D67;
 }
 @media (prefers-color-scheme: dark) {
   body:not(.dark-mode-animate) table th {
-    border-color: #EEEEEE;
+    border-color: #585D67;
   }
 }
 body.dark-mode-animate table th, body.dark-mode-animate table td {
@@ -507,17 +507,17 @@ hr {
   border: none;
   margin: 64px;
   background: none;
-  border-top: 1px solid #75757548;
+  border-top: 1px solid #d5d7d8;
 }
 body.dark-mode-animate hr {
   transition: border-color .3s;
 }
 body.dark hr {
-  border-color: #eeeeee48;
+  border-color: #3d434f;
 }
 @media (prefers-color-scheme: dark) {
   body:not(.dark-mode-animate) hr {
-    border-color: #eeeeee48;
+    border-color: #3d434f;
   }
 }
 #-codedoc-toc hr {
@@ -585,7 +585,7 @@ iframe {
   border-radius: 3px;
 }
 code {
-  color: #616161;
+  color: #7a82da;
   padding: 4px;
   font-size: .85em;
   background: #eeeeee;
@@ -595,12 +595,12 @@ body.dark-mode-animate code {
   transition: color .3s, background .3s;
 }
 body.dark code {
-  color: #e0e0e0;
+  color: #7a82da;
   background: #282828;
 }
 @media (prefers-color-scheme: dark) {
   body:not(.dark-mode-animate) code {
-    color: #e0e0e0;
+    color: #7a82da;
     background: #282828;
   }
 }
@@ -657,10 +657,10 @@ body.dark code {
     color: black;
   }
   .h-0-0-13.primary {
-    color: #363062;
+    color: #0099e1;
   }
   .h-0-0-13.primary-contrast {
-    color: white;
+    color: #f0f0ea;
   }
   .h-0-0-13.text {
     color: #424242;
@@ -680,14 +680,14 @@ body.dark code {
   }
 }
   body.dark .h-0-0-13.primary-contrast {
-    color: black;
+    color: #22252a;
   }
   body.dark .h-0-0-13.primary {
-    color: #9399ff;
+    color: #2f8eff;
   }
 @media (prefers-color-scheme: dark) {
   body:not(.dark-mode-animate) .h-0-0-13.primary {
-    color: #9399ff;
+    color: #2f8eff;
   }
 }
   .heading-0-0-14 {
