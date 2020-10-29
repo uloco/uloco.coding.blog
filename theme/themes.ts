@@ -1,6 +1,7 @@
 export const BlulocoDark = {
   background: "#282c34",
   text: "#abb2bf",
+  shadow: "0 3px 8px rgba(0,0,0,0.4)",
 
   lineHover: "#2d333d",
   lineHighlight: "#3a3e68",
@@ -43,6 +44,7 @@ export const BlulocoDark = {
 export const BlulocoLight = {
   background: "#f9f9f9",
   text: "#383a42",
+  shadow: "0 3px 8px rgba(0,0,0,0.2)",
 
   lineHover: "#f1f1f1",
   lineHighlight: "#d2ecff",

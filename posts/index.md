@@ -20,19 +20,9 @@ Here you can find the latest ideas I'd like to share.
 
 ### Things I like to talk about
 
-TypeScript •
-React •
-ReasonML •
-Functional Programming •
-Web Development •
-MacOS •
-Vim •
-Git •
-Visual Studio Code •
-Open Source Software •
-Shell •
-DevOps •
-Tooling
+TypeScript • React • ReasonML • Functional Programming • Web Development •
+MacOS • Vim • Git • Visual Studio Code • Open Source Software • Shell •
+DevOps • Tooling
 
 ---
 
