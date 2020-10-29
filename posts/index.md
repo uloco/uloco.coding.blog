@@ -47,3 +47,15 @@ So here are the latest posts:
 > :Author src=github
 
 > :ToCPrevNext
+
+---
+
+> :DarkLight
+>
+> > :InDark
+> >
+> > _Hero image by [Ales Nesetril](https://unsplash.com/@alesnesetril) from [Unsplash](https://unsplash.com)_
+>
+> > :InLight
+> >
+> > _Hero image by [Ales Nesetril](https://unsplash.com/@alesnesetril) from [Unsplash](https://unsplash.com)_
