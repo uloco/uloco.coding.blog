@@ -2,7 +2,7 @@
 > target=desktop,
 > leak=0
 
-> :Hero src=https://images.unsplash.com/photo-1556075798-4825dfaaf498?w=1200&h=600&fit=crop,
+> :Hero src=https://images.unsplash.com/photo-1531297484001-80022131f5a1?w=1200&h=600&fit=crop,
 > target=mobile,
 > leak=0 -->
 
