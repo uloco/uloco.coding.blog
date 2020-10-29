@@ -1,3 +1,6 @@
 {
-  "vim.textwidth": 80
+  "vim.textwidth": 80,
+  "cSpell.words": [
+    "wmbar"
+  ]
 }
