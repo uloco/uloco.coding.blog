@@ -60,9 +60,9 @@ body.dark .darklight-0-0-1>.dark {
     min-width: 0;
   }
   .button-0-0-2[disabled] {
-    color: #f5f5f5;
-    border: rgba(66, 66, 66, 0.35);
-    background: rgba(66, 66, 66, 0.35);
+    color: #f0f0ea;
+    border: rgba(56, 58, 66, 0.35);
+    background: rgba(56, 58, 66, 0.35);
   }
   body.dark .button-0-0-2 {
     color: #22252a;
@@ -76,9 +76,9 @@ body.dark .darklight-0-0-1>.dark {
     border-color: #2f8eff;
   }
   body:not(.dark-mode-animate) .button-0-0-2[disabled] {
-    color: #212121;
-    border: rgba(238, 238, 238, 0.35);
-    background: rgba(238, 238, 238, 0.35);
+    color: #22252a;
+    border: rgba(171, 178, 191, 0.35);
+    background: rgba(171, 178, 191, 0.35);
   }
 }
   .button-0-0-2:hover:not([disabled]) {
@@ -97,9 +97,9 @@ body.dark .darklight-0-0-1>.dark {
   }
 }
   body.dark .button-0-0-2[disabled] {
-    color: #212121;
-    border: rgba(238, 238, 238, 0.35);
-    background: rgba(238, 238, 238, 0.35);
+    color: #22252a;
+    border: rgba(171, 178, 191, 0.35);
+    background: rgba(171, 178, 191, 0.35);
   }
 a.button-0-0-2 {
   height: 28px;
@@ -109,7 +109,7 @@ a.button-0-0-2.icon {
   height: 36px;
 }
   .watermark-0-0-3 {
-    color: #424242;
+    color: #383a42;
     cursor: pointer;
     display: block;
     opacity: 0.2;
@@ -126,28 +126,28 @@ a.button-0-0-2.icon {
   }
 @media (prefers-color-scheme: dark) {
   body:not(.dark-mode-animate) .watermark-0-0-3 {
-    color: #eeeeee;
+    color: #abb2bf;
   }
 }
   body.dark .watermark-0-0-3 {
-    color: #eeeeee;
+    color: #abb2bf;
   }
   .watermark-0-0-3 svg {
     height: 2rem;
     margin: .25rem 0;
   }
   .watermark-0-0-3 svg g {
-    fill: #424242;
+    fill: #383a42;
   }
   body.dark-mode-animate .watermark-0-0-3 svg g {
     transition: fill .3s;
   }
   body.dark .watermark-0-0-3 svg g {
-    fill: #eeeeee;
+    fill: #abb2bf;
   }
 @media (prefers-color-scheme: dark) {
   body:not(.dark-mode-animate) .watermark-0-0-3 svg g {
-    fill: #eeeeee;
+    fill: #abb2bf;
   }
 }
   .header-0-0-4 {
@@ -166,7 +166,7 @@ a.button-0-0-2.icon {
     display: flex;
     z-index: 102;
     position: fixed;
-    background: rgba(245, 245, 245, 0.85);
+    background: rgba(240, 240, 234, 0.85);
     box-shadow: 0 -2px 6px rgba(0, 0, 0, .03);
     align-items: center;
     backdrop-filter: blur(12px);
@@ -178,11 +178,11 @@ a.button-0-0-2.icon {
   }
 @media (prefers-color-scheme: dark) {
   body:not(.dark-mode-animate) .footer-0-0-5 {
-    background: rgba(33, 33, 33, 0.85);
+    background: rgba(34, 37, 42, 0.85);
   }
 }
   body.dark .footer-0-0-5 {
-    background: rgba(33, 33, 33, 0.85);
+    background: rgba(34, 37, 42, 0.85);
   }
   .footer-0-0-5 .main {
     overflow: hidden;
@@ -242,8 +242,8 @@ a.button-0-0-2.icon {
     z-index: 101;
     position: fixed;
     transform: translateX(-50vw);
-    background: #f1f1f1;
-    border-right: 1px solid #e7e7e7;
+    background: #f0f0ea0a;
+    border-right: 1px solid #d5d7d8;
     flex-direction: column;
     padding-bottom: 64px;
   }
@@ -251,13 +251,13 @@ a.button-0-0-2.icon {
     transition: background .3s, border-color .3s;
   }
   body.dark .toc-0-0-6 {
-    background: #1f1f1f;
-    border-color: #282828;
+    background: #22252a0a;
+    border-color: #3d434f;
   }
 @media (prefers-color-scheme: dark) {
   body:not(.dark-mode-animate) .toc-0-0-6 {
-    background: #1f1f1f;
-    border-color: #282828;
+    background: #22252a0a;
+    border-color: #3d434f;
   }
 }
 @media screen and (max-width: 1200px) {
@@ -289,24 +289,24 @@ a.button-0-0-2.icon {
     transition: border-color .3s, background .3s;
   }
   .toc-0-0-6 a:hover {
-    background: #f5f5f5;
+    background: #f0f0ea;
     text-decoration: none;
   }
   .toc-0-0-6 a.current {
-    background: #f5f5f5;
-    border-color: #e7e7e7;
+    background: #f0f0ea;
+    border-color: #d5d7d8;
     margin-right: 0;
     border-top-right-radius: 0;
     border-bottom-right-radius: 0;
   }
   body.dark .toc-0-0-6 a.current {
-    background: hsl(0, 0%, 13.2%);
-    border-color: #282828;
+    background: hsl(217.5, 10.5%, 15.2%);
+    border-color: #3d434f;
   }
 @media (prefers-color-scheme: dark) {
   body:not(.dark-mode-animate) .toc-0-0-6 a.current {
-    background: #212121;
-    border-color: #282828;
+    background: #22252a;
+    border-color: #3d434f;
   }
 }
 @media screen and (max-width: 1200px) {
@@ -317,11 +317,11 @@ a.button-0-0-2.icon {
   }
 }
   body.dark .toc-0-0-6 a:hover {
-    background: hsl(0, 0%, 13.2%);
+    background: hsl(217.5, 10.5%, 15.2%);
   }
 @media (prefers-color-scheme: dark) {
   body:not(.dark-mode-animate) .toc-0-0-6 a:hover {
-    background: hsl(0, 0%, 13.2%);
+    background: hsl(217.5, 10.5%, 15.2%);
   }
 }
   body.dark-mode-animate .toc-0-0-6.animated {
@@ -359,7 +359,7 @@ a.button-0-0-2.icon {
   }
 }
   .contentnav-0-0-9 a {
-    color: #424242;
+    color: #383a42;
     display: block;
     opacity: 0.2;
     text-decoration: none;
@@ -369,7 +369,7 @@ a.button-0-0-2.icon {
     border-color: #3d434f;
   }
   body:not(.dark-mode-animate) .contentnav-0-0-9 a {
-    color: #eeeeee;
+    color: #abb2bf;
   }
   body:not(.dark-mode-animate) .contentnav-0-0-9 a:hover, body:not(.dark-mode-animate) .contentnav-0-0-9 a.active {
     color: #2f8eff;
@@ -379,7 +379,7 @@ a.button-0-0-2.icon {
     border-color: #3d434f;
   }
   body.dark .contentnav-0-0-9 a {
-    color: #eeeeee;
+    color: #abb2bf;
   }
   body.dark .contentnav-0-0-9 a:hover, body.dark .contentnav-0-0-9 a.active {
     color: #2f8eff;
@@ -412,11 +412,11 @@ a.button-0-0-2.icon {
   -webkit-tap-highlight-color: transparent;
 }
 body {
-  color: #424242;
+  color: #383a42;
   width: 100vw;
   margin: 0;
   padding: 0;
-  background: #f5f5f5;
+  background: #f0f0ea;
   overflow-x: hidden;
   backface-visibility: hidden;
   -webkit-backface-visibility: hidden;
@@ -461,24 +461,24 @@ table th, table td {
   text-align: left;
 }
 table th {
-  border-bottom: 1px solid #BFC1C2;
+  border-bottom: 1px solid #BDBFC2;
 }
 table td {
   border-bottom: 1px solid #d5d7d8;
 }
 table tr:nth-child(even) {
-  background: #eeeeee;
+  background: #0000000a;
   border-radius: 3px;
 }
 table tr:last-child > td {
   border-bottom: none;
 }
 body.dark table tr:nth-child(even) {
-  background: #282828;
+  background: #ffffff09;
 }
 @media (prefers-color-scheme: dark) {
   body:not(.dark-mode-animate) table tr:nth-child(even) {
-    background: #282828;
+    background: #ffffff09;
   }
 }
 body.dark-mode-animate table tr:nth-child(even) {
@@ -493,11 +493,11 @@ body.dark table td {
   }
 }
 body.dark table th {
-  border-color: #585D67;
+  border-color: #4E5460;
 }
 @media (prefers-color-scheme: dark) {
   body:not(.dark-mode-animate) table th {
-    border-color: #585D67;
+    border-color: #4E5460;
   }
 }
 body.dark-mode-animate table th, body.dark-mode-animate table td {
@@ -525,11 +525,11 @@ body.dark hr {
   margin-right: 32px;
 }
 blockquote {
-  color: #757575;
+  color: #383a4290;
   margin: 0;
   padding: 16px 40px;
   position: relative;
-  background: #eeeeee;
+  background: #0000000a;
   border-radius: 3px;
 }
 body.dark-mode-animate blockquote {
@@ -543,7 +543,7 @@ blockquote:after {
   content: '';
   display: block;
   position: absolute;
-  background: radial-gradient(circle at center, #e0e0e0 50%, transparent 52%),transparent;
+  background: radial-gradient(circle at center, #d5d7d8 50%, transparent 52%),transparent;
   background-size: 4px 4px;
 }
 body.dark-mode-animate blockquote:after {
@@ -551,28 +551,28 @@ body.dark-mode-animate blockquote:after {
 }
 @media (prefers-color-scheme: dark) {
   body:not(.dark-mode-animate) {
-    color: #eeeeee;
-    background: #212121;
+    color: #abb2bf;
+    background: #22252a;
   }
   body:not(.dark-mode-animate) blockquote {
-    color: #cacaca;
-    background: #282828;
+    color: #abb2bf90;
+    background: #ffffff09;
   }
   body:not(.dark-mode-animate) blockquote:after {
-    background: radial-gradient(circle at center, #363636 50%, transparent 52%),transparent;
+    background: radial-gradient(circle at center, #3d434f 50%, transparent 52%),transparent;
     background-size: 4px 4px;
   }
 }
 body.dark {
-  color: #eeeeee;
-  background: #212121;
+  color: #abb2bf;
+  background: #22252a;
 }
 body.dark blockquote {
-  color: #cacaca;
-  background: #282828;
+  color: #abb2bf90;
+  background: #ffffff09;
 }
 body.dark blockquote:after {
-  background: radial-gradient(circle at center, #363636 50%, transparent 52%),transparent;
+  background: radial-gradient(circle at center, #3d434f 50%, transparent 52%),transparent;
   background-size: 4px 4px;
 }
 img {
@@ -588,7 +588,7 @@ code {
   color: #7a82da;
   padding: 4px;
   font-size: .85em;
-  background: #eeeeee;
+  background: #0000000a;
   border-radius: 3px;
 }
 body.dark-mode-animate code {
@@ -596,12 +596,12 @@ body.dark-mode-animate code {
 }
 body.dark code {
   color: #7a82da;
-  background: #282828;
+  background: #ffffff09;
 }
 @media (prefers-color-scheme: dark) {
   body:not(.dark-mode-animate) code {
     color: #7a82da;
-    background: #282828;
+    background: #ffffff09;
   }
 }
   body.dark .hero-0-0-10[data-mode="light"] {
@@ -663,20 +663,20 @@ body.dark code {
     color: #f0f0ea;
   }
   .h-0-0-13.text {
-    color: #424242;
+    color: #383a42;
   }
   .h-0-0-13.background {
-    color: #f5f5f5;
+    color: #f0f0ea;
   }
   body.dark .h-0-0-13.background {
-    color: #212121;
+    color: #22252a;
   }
   body.dark .h-0-0-13.text {
-    color: #eeeeee;
+    color: #abb2bf;
   }
 @media (prefers-color-scheme: dark) {
   body:not(.dark-mode-animate) .h-0-0-13.text {
-    color: #eeeeee;
+    color: #abb2bf;
   }
 }
   body.dark .h-0-0-13.primary-contrast {
