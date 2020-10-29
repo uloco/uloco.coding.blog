@@ -13,8 +13,6 @@
 > :Author src=github
 
 <br>
-TODO: Author
-TODO: Setup Home Page
 
 ## The Workflow
 
